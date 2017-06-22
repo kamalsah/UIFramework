@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="167869" started-at="2017-07-07T06:28:16Z" finished-at="2017-07-07T06:31:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="167869" started-at="2017-07-07T06:28:16Z" finished-at="2017-07-07T06:31:04Z">
+      <class name="galen.LastStandGalen.SamplePage">
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="initDriver" is-config="true" duration-ms="4695" started-at="2017-07-07T11:58:16Z" finished-at="2017-07-07T11:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@207ea13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="initReport" is-config="true" duration-ms="12" started-at="2017-07-07T11:58:21Z" finished-at="2017-07-07T11:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void galen.LastStandGalen.SamplePage.YasHomePageUIOnDesktop() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="YasHomePageUIOnDesktop()[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="YasHomePageUIOnDesktop" duration-ms="70300" started-at="2017-07-07T11:58:21Z" finished-at="2017-07-07T11:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YasHomePageUIOnDesktop -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="quitDriver" is-config="true" duration-ms="1784" started-at="2017-07-07T11:59:31Z" finished-at="2017-07-07T11:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="initDriver" is-config="true" duration-ms="2988" started-at="2017-07-07T11:59:33Z" finished-at="2017-07-07T11:59:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4bff1903]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="initReport" is-config="true" duration-ms="0" started-at="2017-07-07T11:59:36Z" finished-at="2017-07-07T11:59:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void galen.LastStandGalen.SamplePage.YasHomePageUIOnMobile() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="YasHomePageUIOnMobile()[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="YasHomePageUIOnMobile" duration-ms="44028" started-at="2017-07-07T11:59:36Z" finished-at="2017-07-07T12:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YasHomePageUIOnMobile -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="quitDriver" is-config="true" duration-ms="1308" started-at="2017-07-07T12:00:20Z" finished-at="2017-07-07T12:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="initDriver" is-config="true" duration-ms="2718" started-at="2017-07-07T12:00:21Z" finished-at="2017-07-07T12:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@62dae540]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="initReport" is-config="true" duration-ms="1" started-at="2017-07-07T12:00:24Z" finished-at="2017-07-07T12:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void galen.LastStandGalen.SamplePage.YasHomePageUIOnTablet() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="YasHomePageUIOnTablet()[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="YasHomePageUIOnTablet" duration-ms="38314" started-at="2017-07-07T12:00:24Z" finished-at="2017-07-07T12:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YasHomePageUIOnTablet -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:galen.LastStandGalen.SamplePage@6a4f787b]" name="quitDriver" is-config="true" duration-ms="1686" started-at="2017-07-07T12:01:02Z" finished-at="2017-07-07T12:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- galen.LastStandGalen.SamplePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
