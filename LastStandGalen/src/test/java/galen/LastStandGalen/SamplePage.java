@@ -26,6 +26,7 @@ public void YasHomePageUIOnDesktop() throws IOException {
 	  
 	  load("https://yasisland.ae/", 1366,768);
       checkLayout("D://GalenJAVA/LastStandGalen/src/test/java/Spec/YasHomepage.spec",asList("Desktop"));
+      
   }
   @Test
 public void YasHomePageUIOnMobile() throws IOException {
