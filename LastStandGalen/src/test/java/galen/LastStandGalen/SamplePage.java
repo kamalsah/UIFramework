@@ -25,19 +25,21 @@ public class SamplePage extends GalenTestNgTestBase{
 public void YasHomePageUIOnDesktop() throws IOException {
 	  
 	  load("https://yasisland.ae/", 1366,768);
-      checkLayout("D://GalenJAVA/LastStandGalen/src/test/java/Spec/YasHomepage.spec",asList("Desktop"));
+      checkLayout("user.dir" + "/YasHomepage.spec",asList("Desktop"));
   }
+ 
   @Test
 public void YasHomePageUIOnMobile() throws IOException {
 	  
 	  load("https://yasisland.ae/", 412,732);
-      checkLayout("D://GalenJAVA/LastStandGalen/src/test/java/Spec/YasHomepage.spec",asList("Desktop"));
+      checkLayout("user.dir" + "/YasHomepage.spec",asList("Desktop"));
   }
-  @Test
+  
+ @Test
 public void YasHomePageUIOnTablet() throws IOException {
 	  
 	  load("https://yasisland.ae/", 1024,1366);
-      checkLayout("D://GalenJAVA/LastStandGalen/src/test/java/Spec/YasHomepage.spec",asList("Desktop"));
+      checkLayout("user.dir" + "/YasHomepage.spec",asList("Desktop"));
   }
 
 /*  @Test
