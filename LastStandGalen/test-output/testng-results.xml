@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+=======
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
   <reporter-output>
     <line>
       <![CDATA[STATUS : PASS]]>
@@ -11,55 +15,91 @@
       <![CDATA[STATUS : PASS]]>
     </line>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="MiralCreative" duration-ms="96294" started-at="2017-07-12T09:06:40Z" finished-at="2017-07-12T09:08:16Z">
+=======
+  <suite name="MiralCreative" duration-ms="122249" started-at="2017-07-12T09:13:51Z" finished-at="2017-07-12T09:15:53Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test name="Test" duration-ms="96294" started-at="2017-07-12T09:06:40Z" finished-at="2017-07-12T09:08:16Z">
       <class name="com.miral.galenDefination.Home_Page">
         <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initDriver" is-config="true" duration-ms="4345" started-at="2017-07-12T14:36:40Z" finished-at="2017-07-12T14:36:44Z">
+=======
+    <test name="Test" duration-ms="122249" started-at="2017-07-12T09:13:51Z" finished-at="2017-07-12T09:15:53Z">
+      <class name="com.miral.galenDefination.Search_Page">
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initDriver" is-config="true" duration-ms="5554" started-at="2017-07-12T14:43:51Z" finished-at="2017-07-12T14:43:57Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[[Ljava.lang.Object;@704f1591]]>
+=======
+                <![CDATA[[Ljava.lang.Object;@4097cac]]>
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initReport" is-config="true" duration-ms="8" started-at="2017-07-12T14:36:44Z" finished-at="2017-07-12T14:36:44Z">
+=======
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initReport" is-config="true" duration-ms="11" started-at="2017-07-12T14:43:57Z" finished-at="2017-07-12T14:43:57Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.miral.galenDefination.Home_Page.YasHomePageUIOnDesktop() throws java.io.IOException]]>
+                <![CDATA[public void com.miral.galenDefination.Search_Page.YasSearchpageUIinDesktop() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="YasHomePageUIOnDesktop()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="YasHomePageUIOnDesktop" duration-ms="28517" started-at="2017-07-12T14:36:44Z" finished-at="2017-07-12T14:37:13Z">
+=======
+        <test-method status="PASS" signature="YasSearchpageUIinDesktop()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="YasSearchpageUIinDesktop" duration-ms="41633" started-at="2017-07-12T14:43:57Z" finished-at="2017-07-12T14:44:38Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <reporter-output>
             <line>
               <![CDATA[STATUS : PASS]]>
             </line>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- YasHomePageUIOnDesktop -->
         <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="quitDriver" is-config="true" duration-ms="1631" started-at="2017-07-12T14:37:13Z" finished-at="2017-07-12T14:37:14Z">
+=======
+        </test-method> <!-- YasSearchpageUIinDesktop -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="quitDriver" is-config="true" duration-ms="1653" started-at="2017-07-12T14:44:38Z" finished-at="2017-07-12T14:44:40Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initDriver" is-config="true" duration-ms="1641" started-at="2017-07-12T14:37:14Z" finished-at="2017-07-12T14:37:16Z">
+=======
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initDriver" is-config="true" duration-ms="2547" started-at="2017-07-12T14:44:40Z" finished-at="2017-07-12T14:44:43Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[[Ljava.lang.Object;@58fb7731]]>
+=======
+                <![CDATA[[Ljava.lang.Object;@ec2cc4]]>
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="YasHomePageUIOnMobile()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="YasHomePageUIOnMobile" duration-ms="26963" started-at="2017-07-12T14:37:16Z" finished-at="2017-07-12T14:37:43Z">
           <reporter-output>
             <line>
@@ -68,54 +108,149 @@
           </reporter-output>
         </test-method> <!-- YasHomePageUIOnMobile -->
         <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initReport" is-config="true" duration-ms="0" started-at="2017-07-12T14:37:16Z" finished-at="2017-07-12T14:37:16Z">
+=======
+        <test-method status="FAIL" signature="YasSearchpageUIinMobile()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="YasSearchpageUIinMobile" duration-ms="32955" started-at="2017-07-12T14:44:43Z" finished-at="2017-07-12T14:45:16Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 222 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DELKSAH168562', ip: '10.202.97.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Ksah1\AppData\Local\Temp\scoped_dir7800_23518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 313e5942c87744d2e5aa67ff32a183d0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 222 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DELKSAH168562', ip: '10.202.97.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Ksah1\AppData\Local\Temp\scoped_dir7800_23518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 313e5942c87744d2e5aa67ff32a183d0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at com.miral.galenDefination.Search_Page.YasSearchpageUIinMobile(Search_Page.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+            <line>
+              <![CDATA[STATUS : FAIL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- YasSearchpageUIinMobile -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initReport" is-config="true" duration-ms="0" started-at="2017-07-12T14:44:43Z" finished-at="2017-07-12T14:44:43Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.miral.galenDefination.Home_Page.YasHomePageUIOnMobile() throws java.io.IOException]]>
+                <![CDATA[public void com.miral.galenDefination.Search_Page.YasSearchpageUIinMobile() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="quitDriver" is-config="true" duration-ms="1443" started-at="2017-07-12T14:37:43Z" finished-at="2017-07-12T14:37:44Z">
+=======
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="quitDriver" is-config="true" duration-ms="1783" started-at="2017-07-12T14:45:16Z" finished-at="2017-07-12T14:45:17Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initDriver" is-config="true" duration-ms="2524" started-at="2017-07-12T14:37:44Z" finished-at="2017-07-12T14:37:47Z">
+=======
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initDriver" is-config="true" duration-ms="2849" started-at="2017-07-12T14:45:17Z" finished-at="2017-07-12T14:45:20Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[[Ljava.lang.Object;@13e547a9]]>
+=======
+                <![CDATA[[Ljava.lang.Object;@333dd51e]]>
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initReport" is-config="true" duration-ms="10" started-at="2017-07-12T14:37:47Z" finished-at="2017-07-12T14:37:47Z">
+=======
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initReport" is-config="true" duration-ms="1" started-at="2017-07-12T14:45:20Z" finished-at="2017-07-12T14:45:20Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.miral.galenDefination.Home_Page.YasHomePageUIOnTablet() throws java.io.IOException]]>
+                <![CDATA[public void com.miral.galenDefination.Search_Page.YasSearchpageUIinTablet() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="YasHomePageUIOnTablet()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="YasHomePageUIOnTablet" duration-ms="27087" started-at="2017-07-12T14:37:47Z" finished-at="2017-07-12T14:38:14Z">
+=======
+        <test-method status="PASS" signature="YasSearchpageUIinTablet()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="YasSearchpageUIinTablet" duration-ms="31710" started-at="2017-07-12T14:45:20Z" finished-at="2017-07-12T14:45:52Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <reporter-output>
             <line>
               <![CDATA[STATUS : PASS]]>
             </line>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- YasHomePageUIOnTablet -->
         <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="quitDriver" is-config="true" duration-ms="1979" started-at="2017-07-12T14:38:14Z" finished-at="2017-07-12T14:38:16Z">
+=======
+        </test-method> <!-- YasSearchpageUIinTablet -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="quitDriver" is-config="true" duration-ms="1360" started-at="2017-07-12T14:45:52Z" finished-at="2017-07-12T14:45:53Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- com.miral.galenDefination.Home_Page -->
+      </class> <!-- com.miral.galenDefination.Search_Page -->
     </test> <!-- Test -->
   </suite> <!-- MiralCreative -->
 </testng-results>
