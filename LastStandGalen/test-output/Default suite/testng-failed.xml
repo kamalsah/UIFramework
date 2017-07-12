@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="galen.LastStandGalen.SamplePageFF">
+      <class name="com.miral.galenDefination.Search_Page">
         <methods>
           <include name="initDriver"/>
-          <include name="YasHomePageUIOnMobile"/>
-          <include name="YasHomePageUIOnTablet"/>
           <include name="initReport"/>
+          <include name="YasSearchpageUIinMobile"/>
+          <include name="YasSearchpageUIinTablet"/>
           <include name="quitDriver"/>
-          <include name="YasHomePageUIOnDesktop"/>
+          <include name="YasSearchpageUIinDesktop"/>
         </methods>
-      </class> <!-- galen.LastStandGalen.SamplePageFF -->
+      </class> <!-- com.miral.galenDefination.Search_Page -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

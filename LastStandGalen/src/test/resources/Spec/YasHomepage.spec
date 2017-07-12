@@ -6,7 +6,10 @@
 	menu2 xpath //a[@class='uk-parent-heading' and text()='Attractions ']
 	logo xpath .//a[@style='display: block;']/child::img[@class='uk-margin uk-margin-remove']
 	scroll	 xpath .//a[@class='smooth-down uk-animation-reverse element']
-
+	contactus xpath //a[@title='Contact Us']
+	FAQ xpath //a[@title='FAQ']
+	Careers xpath //a[@title='Careers']
+	
 = Main Section =
 	heading:
 		visible
@@ -26,5 +29,8 @@
 	scroll:
 		visible
 		below description
+	
+	contactus:
+		visible
 		
 

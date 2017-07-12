@@ -6,16 +6,14 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.miral.galenDefination.Home_Page">
+      <class name="com.miral.galenDefination.Search_Page">
         <methods>
           <include name="initDriver"/>
           <include name="initReport"/>
-          <include name="YasHomePageUIOnDesktop"/>
+          <include name="YasSearchpageUIinMobile"/>
           <include name="quitDriver"/>
-          <include name="YasHomePageUIOnMobile"/>
-          <include name="YasHomePageUIOnTablet"/>
         </methods>
-      </class> <!-- com.miral.galenDefination.Home_Page -->
+      </class> <!-- com.miral.galenDefination.Search_Page -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [MiralCreative] -->
