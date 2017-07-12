@@ -5,6 +5,7 @@ import static java.util.Arrays.asList;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import com.miral.core.Util;

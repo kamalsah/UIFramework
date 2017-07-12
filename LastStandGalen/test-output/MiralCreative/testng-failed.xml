@@ -10,7 +10,6 @@
         <methods>
           <include name="initDriver"/>
           <include name="initReport"/>
-          <include name="YasHomePageUIOnDesktop"/>
           <include name="quitDriver"/>
           <include name="YasHomePageUIOnMobile"/>
           <include name="YasHomePageUIOnTablet"/>
