@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-MiralCreative">
-              <span class="suite-name border-failed">MiralCreative</span>
+              <span class="suite-name border-passed">MiralCreative</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-MiralCreative" class="hide-methods failed suite-MiralCreative"> (hide)</a> <!-- hide-methods failed suite-MiralCreative -->
-                      <a href="#" panel-name="suite-MiralCreative" class="show-methods failed suite-MiralCreative"> (show)</a> <!-- show-methods failed suite-MiralCreative -->
-                    </span>
-                    <div class="method-list-content failed suite-MiralCreative">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-MiralCreative" title="com.miral.galenDefination.Search_Page" hash-for-method="YasSearchpageUIinMobile">YasSearchpageUIinMobile</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-MiralCreative -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,12 +102,7 @@
                     <div class="method-list-content passed suite-MiralCreative">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-MiralCreative" title="com.miral.galenDefination.Search_Page" hash-for-method="YasSearchpageUIinDesktop">YasSearchpageUIinDesktop</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-MiralCreative" title="com.miral.galenDefination.Search_Page" hash-for-method="YasSearchpageUIinTablet">YasSearchpageUIinTablet</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-MiralCreative" title="com.miral.galenDefination.ContactUs_Page" hash-for-method="YasContactUsUIinDesktop">YasContactUsUIinDesktop</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-MiralCreative -->
@@ -136,56 +117,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MiralCreative" class="panel MiralCreative">
-          <div class="suite-MiralCreative-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.miral.galenDefination.Search_Page</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="YasSearchpageUIinMobile">
-                  </a> <!-- YasSearchpageUIinMobile -->
-                  <span class="method-name">YasSearchpageUIinMobile</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 222 milliseconds
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;DELKSAH168562&apos;, ip: &apos;10.202.97.74&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Ksah1\AppData\Local\Temp\scoped_dir7800_23518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 313e5942c87744d2e5aa67ff32a183d0
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at com.miral.galenDefination.Search_Page.YasSearchpageUIinMobile(Search_Page.java:44)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MiralCreative-class-failed -->
           <div class="suite-MiralCreative-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.miral.galenDefination.Search_Page</span>
+              <span class="class-name">com.miral.galenDefination.ContactUs_Page</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="YasSearchpageUIinDesktop">
-                  </a> <!-- YasSearchpageUIinDesktop -->
-                  <span class="method-name">YasSearchpageUIinDesktop</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="YasSearchpageUIinTablet">
-                  </a> <!-- YasSearchpageUIinTablet -->
-                  <span class="method-name">YasSearchpageUIinTablet</span>
+                  <a name="YasContactUsUIinDesktop">
+                  </a> <!-- YasContactUsUIinDesktop -->
+                  <span class="method-name">YasContactUsUIinDesktop</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,7 +147,7 @@ Session ID: 313e5942c87744d2e5aa67ff32a183d0
   &lt;/listeners&gt;
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.miral.galenDefination.Search_Page&quot;/&gt;
+      &lt;class name=&quot;com.miral.galenDefination.ContactUs_Page&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- MiralCreative --&gt;
@@ -245,24 +187,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'YasSearchpageUIinDesktop')
-data.setCell(0, 2, 'com.miral.galenDefination.Search_Page')
-data.setCell(0, 3, 41633);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'YasSearchpageUIinMobile')
-data.setCell(1, 2, 'com.miral.galenDefination.Search_Page')
-data.setCell(1, 3, 32955);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'YasSearchpageUIinTablet')
-data.setCell(2, 2, 'com.miral.galenDefination.Search_Page')
-data.setCell(2, 3, 31710);
+data.setCell(0, 1, 'YasContactUsUIinDesktop')
+data.setCell(0, 2, 'com.miral.galenDefination.ContactUs_Page')
+data.setCell(0, 3, 25592);
 window.suiteTableData['MiralCreative']= { tableData: data, tableDiv: 'times-div-MiralCreative'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-MiralCreative">
               </div> <!-- times-div-MiralCreative -->
             </div> <!-- times-div -->
@@ -274,21 +208,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">YasSearchpageUIinTablet</span>
+              <span class="reporter-method-name">YasContactUsUIinDesktop</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">STATUS : PASS</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">YasSearchpageUIinDesktop</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">STATUS : PASS</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">YasSearchpageUIinMobile</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">STATUS : FAIL</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -306,56 +228,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.miral.galenDefination.Search_Page</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.miral.galenDefination.ContactUs_Page</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver([])</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">initReport(public void com.miral.galenDefination.Search_Page.YasSearchpageUIinDesktop() throws java.io.IOExcept...)</span>
-                <span class="method-start">5554 ms</span>
+                <span class="method-name">initReport(public void com.miral.galenDefination.ContactUs_Page.YasContactUsUIinDesktop() throws java.io.IOExce...)</span>
+                <span class="method-start">3961 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">YasSearchpageUIinDesktop</span>
-                <span class="method-start">5565 ms</span>
+                <span class="method-name">YasContactUsUIinDesktop</span>
+                <span class="method-start">3972 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">47208 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver([])</span>
-                <span class="method-start">48861 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">initReport(public void com.miral.galenDefination.Search_Page.YasSearchpageUIinMobile() throws java.io.IOExcepti...)</span>
-                <span class="method-start">51408 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">YasSearchpageUIinMobile</span>
-                <span class="method-start">51408 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">84387 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver([])</span>
-                <span class="method-start">86172 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">initReport(public void com.miral.galenDefination.Search_Page.YasSearchpageUIinTablet() throws java.io.IOExcepti...)</span>
-                <span class="method-start">89021 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">YasSearchpageUIinTablet</span>
-                <span class="method-start">89022 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">120735 ms</span>
+                <span class="method-start">29570 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

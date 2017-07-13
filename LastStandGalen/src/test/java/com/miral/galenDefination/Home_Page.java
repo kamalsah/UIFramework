@@ -25,14 +25,14 @@ public class Home_Page extends Util{
 	public void YasHomePageUIOnMobile() throws IOException {
 		  
 		  load("https://yasisland.ae/", 412,732);
-	      checkLayout(System.getProperty("user.dir")+ "/src/test/resources//spec/YasHomepage.spec",asList("mobile"));
+	      checkLayout(System.getProperty("user.dir")+ "/src/test/resources/spec/YasHomepage.spec",asList("mobile"));
 	  }
 	  
 	 @Test
 	public void YasHomePageUIOnTablet() throws IOException {
 		  
 		  load("https://yasisland.ae/", 1024,1366);
-	      checkLayout(System.getProperty("user.dir")+ "/src/test/resources//spec/YasHomepage.spec",asList("tablet"));
+	      checkLayout(System.getProperty("user.dir")+ "/src/test/resources/spec/YasHomepage.spec",asList("tablet"));
 	  }
 	
 }

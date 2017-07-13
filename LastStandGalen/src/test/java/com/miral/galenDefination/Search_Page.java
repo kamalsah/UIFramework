@@ -42,7 +42,7 @@ public class Search_Page extends Util {
 	  driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS) ;
 	  WebElement searchicon=driver.findElement(By.xpath("//li[contains(@class,'uk-visible-large')]/a"));
 	  searchicon.click();
-      checkLayout(System.getProperty("user.dir")+ "/src/test/resources//spec/YasSearch.spec",asList("mobile"));
+      checkLayout(System.getProperty("user.dir")+ "/src/test/resources/spec/YasSearch.spec",asList("mobile"));
   }
 	  
   
