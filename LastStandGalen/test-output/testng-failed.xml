@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [MiralCreative]">
-  <listeners>
-    <listener class-name="com.miral.core.CustomListener"/>
-  </listeners>
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.miral.galenDefination.Search_Page">
+      <class name="com.miral.galenDefination.ImageComparison">
         <methods>
+          <include name="YasHomePageUIOnDesktop"/>
           <include name="initDriver"/>
           <include name="initReport"/>
-<<<<<<< HEAD
-=======
-          <include name="YasSearchpageUIinMobile"/>
->>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <include name="quitDriver"/>
         </methods>
-      </class> <!-- com.miral.galenDefination.Search_Page -->
+      </class> <!-- com.miral.galenDefination.ImageComparison -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [MiralCreative] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

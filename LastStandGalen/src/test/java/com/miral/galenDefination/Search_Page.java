@@ -22,6 +22,7 @@ public class Search_Page extends Util {
 	  WebElement searchicon=driver.findElement(By.xpath("//li[contains(@class,'uk-visible-large')]/a"));
 	  searchicon.click();
       checkLayout(System.getProperty("user.dir")+ "/src/test/resources/spec/YasSearch.spec",asList("Desktop")); 
+      
   }
   
   
@@ -29,7 +30,8 @@ public class Search_Page extends Util {
   public void YasSearchpageUIinTablet() throws IOException {
 	  WebDriver driver=getDriver();
 	  load("https://yasisland.ae/", 1366,768);
-	  WebElement searchicon=driver.findElement(By.xpath("//li[contains(@class,'uk-visible-large')]/a"));
+	  WebElement searchicon=driver.findElement(By.xpath("//li[contains(@class,'uk-hidden-large')]/a"));
+	  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	  searchicon.click();
       checkLayout(System.getProperty("user.dir")+ "/src/test/resources//spec/YasSearch.spec",asList("tablet"));  
   }

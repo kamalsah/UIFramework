@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Galen Page Dump</title>
+        <link rel="stylesheet" type="text/css" href="galen-pagedump.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="galen-pagedump.js"></script>
+        <script>
+var pageData = {"title":"Home - Yas Island - Yas Island","items":{"heading":{"area":[222,299,889,72],"hasImage":true},"viewport":{"area":[0,0,1333,636],"hasImage":true},"navcontainer":{"area":[0,0,1333,80],"hasImage":true},"scroll":{"area":[0,566,1333,50],"hasImage":true},"description":{"area":[166,411,999,72],"hasImage":true},"logo":{"area":[576,0,180,180],"hasImage":true},"screen":{"area":[0,0,1333,7226],"hasImage":true},"menu2":{"area":[163,0,151,80],"hasImage":true},"menu1":{"area":[35,0,129,80],"hasImage":true}},"pageName":"some page"};
+        </script>
+    </head>
+
+    <body>
+        <script>
+            $(function () {
+                initGalenPageDump(pageData);
+            });
+        </script>
+        <h1>some page - Galen page dump</h1>
+        <div class="image">
+            <div class="canvas">
+            </div>
+            <img src="page.png">
+            <div class="bottombarstub"></div>
+        </div>
+        <div id="sidebar">
+            <div class="wrapper">
+                <div id="object-list">
+                    <h2>All objects:</h2>
+                    <ul>
+                    </ul>
+                </div>
+                <div id="object-details" style="display: none;">
+                    <h2>Details</h2>
+                    <span class="field-name">Name:</span>
+                    <span class="field-value xf-object-name"></span>
+
+                    <span class="field-name">Area:</span>
+                    <span class="field-value xf-object-area"></span>
+
+                    <span class="field-name">Image:</span>
+                    <div class="image"></div>
+
+                </div>
+                <div class="bottombarstub"></div>
+            </div>
+        </div>
+        <div id="bottombar">
+            <div class="wrapper">
+                <div id="object-suggestions" style="display: none;">
+                    <h2>Spec Suggestions</h2>
+                    <div class="spec-list">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
