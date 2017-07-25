@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [MiralCreative]">
   <listeners>
-    <listener class-name="com.miral.core.CustomListener"/>
+    <listener class-name="com.miral.core.Reporter"/>
   </listeners>
   <test name="Test(failed)">
     <classes>
@@ -19,10 +19,8 @@
         <methods>
           <include name="initDriver"/>
           <include name="initReport"/>
-<<<<<<< HEAD
-=======
           <include name="YasSearchpageUIinMobile"/>
->>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+          <include name="YasSearchpageUIinTablet"/>
           <include name="quitDriver"/>
         </methods>
       </class> <!-- com.miral.galenDefination.Search_Page -->
