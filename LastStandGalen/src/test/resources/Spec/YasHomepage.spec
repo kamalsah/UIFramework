@@ -9,7 +9,21 @@
 	contactus xpath //a[@title='Contact Us']
 	FAQ xpath //a[@title='FAQ']
 	Careers xpath //a[@title='Careers']
-	
+	FooterContainer xpath //div[@class='uk-container uk-container-center']
+	FooterSocialContainer xpath //ul[@class='uk-subnav uk-flex-center uk-margin-large-top uk-margin-bottom-remove']
+	SocialEmail xpath //a[@title='email']
+	SocialFacebook xpath //a[@title='facebook']
+	SocialTwitter xpath //a[@title='twitter']
+	SocialInstagram xpath //a[@title='instagram']
+	SocialYoutube xpath //a[@title='youtube']
+	SubnavContainer xpath //ul[@class='uk-subnav uk-flex-center uk-margin']
+	SubnavApple xpath //img[@alt='Apple Appstore']
+	SubnavGooglePlay xpath //img[@alt='Google Play']
+	FooterYasLogo xpath //img[@alt='Yas Island Logo']
+	FooterH3 xpath //h3[@class='uk-h3']
+	LogoEthid xpath //img[@title='Etihad Airways']
+	LogoAbuDhabi xpath //img[@title='Visit Abu Dhabi']
+		
 = Main Section =
 	heading:
 		visible

@@ -7,6 +7,9 @@ import com.galenframework.testng.GalenTestNgTestBase;
 
 public class Util extends GalenTestNgTestBase {
 	
+	
+	protected WebDriver driver;
+	
 	@Override
 	public WebDriver createDriver(Object[] args) {
 		// TODO Auto-generated method stub
@@ -14,8 +17,7 @@ public class Util extends GalenTestNgTestBase {
 		System.setProperty("webdriver.chrome.driver",
 				System.getProperty("user.dir")
 						+ "//Resource//Tools//Chromedriver//chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
-		
+		driver=new ChromeDriver();
 		return driver;
 	}
 

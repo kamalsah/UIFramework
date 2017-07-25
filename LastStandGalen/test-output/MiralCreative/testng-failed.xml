@@ -19,7 +19,10 @@
         <methods>
           <include name="initDriver"/>
           <include name="initReport"/>
+<<<<<<< HEAD
+=======
           <include name="YasSearchpageUIinMobile"/>
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <include name="quitDriver"/>
         </methods>
       </class> <!-- com.miral.galenDefination.Search_Page -->

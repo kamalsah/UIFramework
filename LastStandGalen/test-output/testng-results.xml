@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="3" ignored="0" total="7" passed="4">
+=======
+<<<<<<< HEAD
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+=======
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
   <reporter-output>
     <line>
       <![CDATA[STATUS : FAIL]]>
@@ -8,7 +16,7 @@
       <![CDATA[STATUS : PASS]]>
     </line>
     <line>
-      <![CDATA[STATUS : FAIL]]>
+      <![CDATA[STATUS : PASS]]>
     </line>
     <line>
       <![CDATA[STATUS : PASS]]>
@@ -23,22 +31,51 @@
       <![CDATA[STATUS : PASS]]>
     </line>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="MiralCreative" duration-ms="154985" started-at="2017-07-13T11:09:37Z" finished-at="2017-07-13T11:12:12Z">
+=======
+<<<<<<< HEAD
+  <suite name="MiralCreative" duration-ms="96294" started-at="2017-07-12T09:06:40Z" finished-at="2017-07-12T09:08:16Z">
+=======
+  <suite name="MiralCreative" duration-ms="122249" started-at="2017-07-12T09:13:51Z" finished-at="2017-07-12T09:15:53Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test name="Test" duration-ms="154985" started-at="2017-07-13T11:09:37Z" finished-at="2017-07-13T11:12:12Z">
       <class name="com.miral.galenDefination.Home_Page">
         <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Home_Page@7e0b0338]" name="initDriver" is-config="true" duration-ms="4866" started-at="2017-07-13T16:39:37Z" finished-at="2017-07-13T16:39:42Z">
+=======
+<<<<<<< HEAD
+    <test name="Test" duration-ms="96294" started-at="2017-07-12T09:06:40Z" finished-at="2017-07-12T09:08:16Z">
+      <class name="com.miral.galenDefination.Home_Page">
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initDriver" is-config="true" duration-ms="4345" started-at="2017-07-12T14:36:40Z" finished-at="2017-07-12T14:36:44Z">
+=======
+    <test name="Test" duration-ms="122249" started-at="2017-07-12T09:13:51Z" finished-at="2017-07-12T09:15:53Z">
+      <class name="com.miral.galenDefination.Search_Page">
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initDriver" is-config="true" duration-ms="5554" started-at="2017-07-12T14:43:51Z" finished-at="2017-07-12T14:43:57Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[[Ljava.lang.Object;@e6516e]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[[Ljava.lang.Object;@704f1591]]>
+=======
+                <![CDATA[[Ljava.lang.Object;@4097cac]]>
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Home_Page@7e0b0338]" name="initReport" is-config="true" duration-ms="12" started-at="2017-07-13T16:39:42Z" finished-at="2017-07-13T16:39:42Z">
           <params>
             <param index="0">
@@ -223,6 +260,13 @@
           </reporter-output>
         </test-method> <!-- initDriver -->
         <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Search_Page@617faa95]" name="initReport" is-config="true" duration-ms="1" started-at="2017-07-13T16:40:48Z" finished-at="2017-07-13T16:40:48Z">
+=======
+<<<<<<< HEAD
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initReport" is-config="true" duration-ms="8" started-at="2017-07-12T14:36:44Z" finished-at="2017-07-12T14:36:44Z">
+=======
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initReport" is-config="true" duration-ms="11" started-at="2017-07-12T14:43:57Z" finished-at="2017-07-12T14:43:57Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
@@ -233,29 +277,76 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="YasSearchpageUIinDesktop()[pri:0, instance:com.miral.galenDefination.Search_Page@617faa95]" name="YasSearchpageUIinDesktop" duration-ms="17455" started-at="2017-07-13T16:40:48Z" finished-at="2017-07-13T16:41:06Z">
+=======
+<<<<<<< HEAD
+        <test-method status="PASS" signature="YasHomePageUIOnDesktop()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="YasHomePageUIOnDesktop" duration-ms="28517" started-at="2017-07-12T14:36:44Z" finished-at="2017-07-12T14:37:13Z">
+=======
+        <test-method status="PASS" signature="YasSearchpageUIinDesktop()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="YasSearchpageUIinDesktop" duration-ms="41633" started-at="2017-07-12T14:43:57Z" finished-at="2017-07-12T14:44:38Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <reporter-output>
             <line>
               <![CDATA[STATUS : PASS]]>
             </line>
           </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- YasHomePageUIOnDesktop -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="quitDriver" is-config="true" duration-ms="1631" started-at="2017-07-12T14:37:13Z" finished-at="2017-07-12T14:37:14Z">
+=======
         </test-method> <!-- YasSearchpageUIinDesktop -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Search_Page@617faa95]" name="quitDriver" is-config="true" duration-ms="1885" started-at="2017-07-13T16:41:06Z" finished-at="2017-07-13T16:41:08Z">
+=======
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="quitDriver" is-config="true" duration-ms="1653" started-at="2017-07-12T14:44:38Z" finished-at="2017-07-12T14:44:40Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Search_Page@617faa95]" name="initDriver" is-config="true" duration-ms="2921" started-at="2017-07-13T16:41:08Z" finished-at="2017-07-13T16:41:10Z">
+=======
+<<<<<<< HEAD
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initDriver" is-config="true" duration-ms="1641" started-at="2017-07-12T14:37:14Z" finished-at="2017-07-12T14:37:16Z">
+=======
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initDriver" is-config="true" duration-ms="2547" started-at="2017-07-12T14:44:40Z" finished-at="2017-07-12T14:44:43Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[[Ljava.lang.Object;@6691490c]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[[Ljava.lang.Object;@58fb7731]]>
+=======
+                <![CDATA[[Ljava.lang.Object;@ec2cc4]]>
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
+<<<<<<< HEAD
         <test-method status="FAIL" signature="YasSearchpageUIinMobile()[pri:0, instance:com.miral.galenDefination.Search_Page@617faa95]" name="YasSearchpageUIinMobile" duration-ms="14561" started-at="2017-07-13T16:41:10Z" finished-at="2017-07-13T16:41:25Z">
+=======
+<<<<<<< HEAD
+        <test-method status="PASS" signature="YasHomePageUIOnMobile()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="YasHomePageUIOnMobile" duration-ms="26963" started-at="2017-07-12T14:37:16Z" finished-at="2017-07-12T14:37:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STATUS : PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- YasHomePageUIOnMobile -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initReport" is-config="true" duration-ms="0" started-at="2017-07-12T14:37:16Z" finished-at="2017-07-12T14:37:16Z">
+=======
+        <test-method status="FAIL" signature="YasSearchpageUIinMobile()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="YasSearchpageUIinMobile" duration-ms="32955" started-at="2017-07-12T14:44:43Z" finished-at="2017-07-12T14:45:16Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not visible
@@ -322,7 +413,12 @@ Session ID: 8b81bda8b0d9fcfa9ea6600d104587c5
             </line>
           </reporter-output>
         </test-method> <!-- YasSearchpageUIinMobile -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Search_Page@617faa95]" name="initReport" is-config="true" duration-ms="0" started-at="2017-07-13T16:41:10Z" finished-at="2017-07-13T16:41:10Z">
+=======
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initReport" is-config="true" duration-ms="0" started-at="2017-07-12T14:44:43Z" finished-at="2017-07-12T14:44:43Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
@@ -333,21 +429,46 @@ Session ID: 8b81bda8b0d9fcfa9ea6600d104587c5
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Search_Page@617faa95]" name="quitDriver" is-config="true" duration-ms="1671" started-at="2017-07-13T16:41:25Z" finished-at="2017-07-13T16:41:27Z">
+=======
+<<<<<<< HEAD
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="quitDriver" is-config="true" duration-ms="1443" started-at="2017-07-12T14:37:43Z" finished-at="2017-07-12T14:37:44Z">
+=======
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="quitDriver" is-config="true" duration-ms="1783" started-at="2017-07-12T14:45:16Z" finished-at="2017-07-12T14:45:17Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Search_Page@617faa95]" name="initDriver" is-config="true" duration-ms="2797" started-at="2017-07-13T16:41:27Z" finished-at="2017-07-13T16:41:30Z">
+=======
+<<<<<<< HEAD
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initDriver" is-config="true" duration-ms="2524" started-at="2017-07-12T14:37:44Z" finished-at="2017-07-12T14:37:47Z">
+=======
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initDriver" is-config="true" duration-ms="2849" started-at="2017-07-12T14:45:17Z" finished-at="2017-07-12T14:45:20Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[[Ljava.lang.Object;@2187fff7]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[[Ljava.lang.Object;@13e547a9]]>
+=======
+                <![CDATA[[Ljava.lang.Object;@333dd51e]]>
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="YasSearchpageUIinTablet()[pri:0, instance:com.miral.galenDefination.Search_Page@617faa95]" name="YasSearchpageUIinTablet" duration-ms="14668" started-at="2017-07-13T16:41:30Z" finished-at="2017-07-13T16:41:44Z">
           <reporter-output>
             <line>
@@ -356,6 +477,13 @@ Session ID: 8b81bda8b0d9fcfa9ea6600d104587c5
           </reporter-output>
         </test-method> <!-- YasSearchpageUIinTablet -->
         <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Search_Page@617faa95]" name="initReport" is-config="true" duration-ms="0" started-at="2017-07-13T16:41:30Z" finished-at="2017-07-13T16:41:30Z">
+=======
+<<<<<<< HEAD
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="initReport" is-config="true" duration-ms="10" started-at="2017-07-12T14:37:47Z" finished-at="2017-07-12T14:37:47Z">
+=======
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="initReport" is-config="true" duration-ms="1" started-at="2017-07-12T14:45:20Z" finished-at="2017-07-12T14:45:20Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <params>
             <param index="0">
               <value>
@@ -366,6 +494,7 @@ Session ID: 8b81bda8b0d9fcfa9ea6600d104587c5
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Search_Page@617faa95]" name="quitDriver" is-config="true" duration-ms="1371" started-at="2017-07-13T16:41:44Z" finished-at="2017-07-13T16:41:46Z">
           <reporter-output>
           </reporter-output>
@@ -395,13 +524,30 @@ Session ID: 8b81bda8b0d9fcfa9ea6600d104587c5
           </reporter-output>
         </test-method> <!-- initReport -->
         <test-method status="PASS" signature="YasContactUsUIinDesktop()[pri:0, instance:com.miral.galenDefination.ContactUs_Page@1e127982]" name="YasContactUsUIinDesktop" duration-ms="21835" started-at="2017-07-13T16:41:49Z" finished-at="2017-07-13T16:42:11Z">
+=======
+<<<<<<< HEAD
+        <test-method status="PASS" signature="YasHomePageUIOnTablet()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="YasHomePageUIOnTablet" duration-ms="27087" started-at="2017-07-12T14:37:47Z" finished-at="2017-07-12T14:38:14Z">
+=======
+        <test-method status="PASS" signature="YasSearchpageUIinTablet()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="YasSearchpageUIinTablet" duration-ms="31710" started-at="2017-07-12T14:45:20Z" finished-at="2017-07-12T14:45:52Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <reporter-output>
             <line>
               <![CDATA[STATUS : PASS]]>
             </line>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- YasContactUsUIinDesktop -->
         <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.ContactUs_Page@1e127982]" name="quitDriver" is-config="true" duration-ms="1615" started-at="2017-07-13T16:42:11Z" finished-at="2017-07-13T16:42:12Z">
+=======
+<<<<<<< HEAD
+        </test-method> <!-- YasHomePageUIOnTablet -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Home_Page@31610302]" name="quitDriver" is-config="true" duration-ms="1979" started-at="2017-07-12T14:38:14Z" finished-at="2017-07-12T14:38:16Z">
+=======
+        </test-method> <!-- YasSearchpageUIinTablet -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.miral.galenDefination.Search_Page@10bdf5e5]" name="quitDriver" is-config="true" duration-ms="1360" started-at="2017-07-12T14:45:52Z" finished-at="2017-07-12T14:45:53Z">
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
+>>>>>>> branch 'UIFrameWork' of https://github.com/kamalsah/UIFramework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
