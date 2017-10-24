@@ -29,7 +29,7 @@ public class ContactUs_Page extends Util {
 	  }
 	  
 	  
-/*	  @Test
+  @Test
 	  public void YasContactUsUIinTablet() throws IOException {
 		  WebDriver driver=getDriver();
 		  load("https://yasisland.ae/", 1366,768);
@@ -52,5 +52,5 @@ public class ContactUs_Page extends Util {
 		  linkContactUs.click();
 	      checkLayout(System.getProperty("user.dir")+ "/src/test/resources/spec/ContactUs.spec",asList("mobile"));
 	  }
-		  */
+		
 }

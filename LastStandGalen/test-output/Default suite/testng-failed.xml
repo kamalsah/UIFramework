@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.miral.galenDefination.ImageComparison">
+      <class name="com.miral.galenDefination.Miral_HomePage">
         <methods>
-          <include name="YasHomePageUIOnDesktop"/>
           <include name="initDriver"/>
+          <include name="Miral_HomePage_UI_Validation"/>
           <include name="initReport"/>
           <include name="quitDriver"/>
         </methods>
-      </class> <!-- com.miral.galenDefination.ImageComparison -->
+      </class> <!-- com.miral.galenDefination.Miral_HomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

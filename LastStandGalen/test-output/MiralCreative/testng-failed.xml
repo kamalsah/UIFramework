@@ -6,24 +6,16 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.miral.galenDefination.Home_Page">
+      <class name="com.miral.galenDefination.Miral_HomePage">
         <methods>
           <include name="initDriver"/>
+          <include name="Miral_HomePage_EditorialGrid_UI_Validation"/>
           <include name="initReport"/>
-          <include name="YasHomePageUIOnDesktop"/>
           <include name="quitDriver"/>
-          <include name="YasHomePageUIOnTablet"/>
+          <include name="Miral_HomePage_Footer_UI_Validation"/>
+          <include name="Miral_HomePage_HeroPanel_UI_Validation"/>
         </methods>
-      </class> <!-- com.miral.galenDefination.Home_Page -->
-      <class name="com.miral.galenDefination.Search_Page">
-        <methods>
-          <include name="initDriver"/>
-          <include name="initReport"/>
-          <include name="YasSearchpageUIinMobile"/>
-          <include name="YasSearchpageUIinTablet"/>
-          <include name="quitDriver"/>
-        </methods>
-      </class> <!-- com.miral.galenDefination.Search_Page -->
+      </class> <!-- com.miral.galenDefination.Miral_HomePage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [MiralCreative] -->

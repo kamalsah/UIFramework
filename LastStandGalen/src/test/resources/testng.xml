@@ -7,9 +7,8 @@
 
   <test name="Test">
     <classes>
-       <class name="com.miral.galenDefination.Home_Page"/>
-       <class name="com.miral.galenDefination.Search_Page"/>
-      <class name="com.miral.galenDefination.ContactUs_Page"/>
-    </classes>
+       <class name="com.miral.galenDefination.Miral_HomePage"/>
+    
+      </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

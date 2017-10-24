@@ -1,0 +1,123 @@
+@objects
+	Header_menu-* xpath .//ul[@class='nav--wrapper']/li
+	Hamburger_close xpath .//div[contains(@class,'c-header-top-icon close')]
+	Header_profile_mobile xpath .//div[contains(@class,'c-header component')]/div[contains(@class,'c-header-top')]/div[1]
+	Header_bookTicket_mobile xpath .//div[contains(@class,'header-bottom')]/div[contains(@class,'btn btn-secondary')]
+	Header_cart_mobile xpath .//div[contains(@class,'header-bottom')]/a[contains(@class,'c-header-top-icon cart')]
+	Header_langselector_mobile xpath .//div[contains(@class,'header-bottom-lang-switcher')]/descendant::div[contains(@class,'selected-option collapse')]
+	Header_hamburgercontainer xpath .//div[contains(@class,'c-header-top')]
+	Header_logo xpath .//div[contains(@class,'c-header-top-logo')]
+	Header_sublinks-* xpath .//ul[contains(@class,'meganav--text-wrapper-list')]/li
+	Header_sublink_container xpath .//ul[contains(@class,'meganav--text-wrapper-list')]
+	Header_icon xpath .//div/img
+	
+= Header Section =
+ @for [1 - 3] as index
+  Header_menu-${index}:
+    above Header_menu-${index + 1}
+    count any "Header_menu-*" is 4
+    aligned vertically left Header_menu-${index + 1}
+    inside screen
+    inside viewport
+    above Header_cart_mobile
+    above Header_langselector_mobile
+    centered horizontally on Header_logo
+    centered horizontally inside screen
+    centered horizontally inside viewport
+    
+  Hamburger_close:
+    visible
+    inside Header_hamburgercontainer
+
+  Header_profile_mobile:
+    visible
+    inside Header_hamburgercontainer
+    
+  Header_bookTicket_mobile:
+    visible
+    inside screen
+    left-of Header_cart_mobile
+    left-of Header_langselector_mobile
+    below Header_hamburgercontainer
+    below Header_logo
+    below Header_menu-1 
+    centered vertically on Header_cart_mobile
+    centered vertically on Header_langselector_mobile
+    
+  Header_cart_mobile:
+    inside screen
+    left-of Header_langselector_mobile
+    right-of Header_bookTicket_mobile
+    right-of Header_logo
+    below Header_hamburgercontainer
+    below Header_logo
+    below Header_menu-1
+    centered vertically inside Header_bookTicket_mobile
+    centered vertically on Header_langselector_mobile
+  
+  Header_langselector_mobile:
+    inside screen
+    right-of Header_bookTicket_mobile
+    right-of Header_cart_mobile
+    right-of Header_logo
+    below Header_hamburgercontainer
+    below Header_logo
+    below Header_menu-1 337px
+    centered vertically inside Header_bookTicket_mobile
+    centered vertically inside Header_cart_mobile
+    
+  Header_hamburgercontainer:
+    inside screen 0px top
+    aligned vertically all screen
+    aligned vertically all viewport
+    above Header_bookTicket_mobile
+    above Header_cart_mobile
+    above Header_langselector_mobile
+    above Header_menu-1 136px
+    centered vertically on Header_logo
+    centered horizontally on Header_menu-2
+    centered horizontally on Header_menu-1
+    centered horizontally on Header_menu-3
+    centered horizontally on Header_menu-4
+  
+  Header_logo:
+    inside Header_hamburgercontainer
+    inside screen
+    inside viewport
+    left-of Header_cart_mobile
+    left-of Header_langselector_mobile
+    above Header_bookTicket_mobile
+    above Header_cart_mobile
+    above Header_langselector_mobile
+    above Header_menu-1 153px
+    centered all inside Header_hamburgercontainer
+    centered horizontally inside Header_menu-1
+    centered horizontally inside screen
+    centered horizontally inside viewport
+    
+  screen:
+    width 100% of Header_hamburgercontainer/width
+    width 100% of viewport/width
+    inside partly viewport 
+    aligned horizontally top viewport
+    aligned vertically all Header_hamburgercontainer
+    aligned vertically all viewport
+    centered horizontally on Header_logo
+    centered horizontally on Header_menu-2
+    centered horizontally on Header_menu-1
+    centered horizontally on Header_menu-3
+    centered horizontally on Header_menu-4
+
+  viewport:
+    width 100% of screen/width
+    aligned horizontally top screen
+    aligned vertically all Header_hamburgercontainer
+    aligned vertically all screen
+    above Header_bookTicket_mobile
+    above Header_cart_mobile
+    above Header_langselector_mobile
+    centered horizontally on Header_logo
+    centered horizontally on Header_menu-2
+    centered horizontally on Header_menu-1
+    centered horizontally on Header_menu-3
+    centered horizontally on Header_menu-4  

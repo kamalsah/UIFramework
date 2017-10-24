@@ -25,26 +25,70 @@
 	LogoAbuDhabi xpath //img[@title='Visit Abu Dhabi']
 		
 = Main Section =
-	heading:
-		visible
-		#centered vertically inside viewport
-		#text is "It's time to dream"
-		
-	description:
-		visible
-		below heading
-		#text is "Invigorate the senses, live out your dreams and make memories to last a lifetime at a destination like no other. Experience out of this world attractions, pristine beaches and the warmth of Emirati hospitality on an extraordinary island in the sparkling Arabian Gulf. Welcome to the time of your life."
-	
-	logo:
-		visible
-		above heading
-		#aligned horizontally centered inside viewport
-		
-	scroll:
-		visible
-		below description
-	
-	contactus:
-		visible
-		
 
+	scroll:
+     below logo 386px
+     below heading 195px
+     below description 83px
+     centered horizontally on logo 1px
+     centered horizontally on heading
+     centered horizontally on description 2px
+
+    logo:
+     aligned horizontally top menu1
+     aligned horizontally top menu2
+     right-of menu1 412px
+     right-of menu2 262px
+     above scroll 386px
+     above heading 119px
+     above description 231px
+     centered horizontally inside scroll 1px
+     centered horizontally inside heading 1px
+     centered horizontally inside description 1px
+
+    heading:
+     right-of menu1 58px
+     above scroll 195px
+     above description 40px
+     below logo 119px
+     below menu1 219px
+     below menu2 219px
+     centered horizontally inside scroll
+     centered horizontally on logo 1px
+     centered horizontally inside description 2px
+
+    description:
+     aligned vertically left menu2 3px
+     right-of menu1 2px
+     above scroll 83px
+     below logo 231px
+     below heading 40px
+     below menu1 331px
+     below menu2 331px
+     centered horizontally inside scroll 2px
+     centered horizontally on logo 1px
+     centered horizontally on heading 2px
+
+    menu1:
+     height 100% of menu2/height
+     inside partly menu2  150px right
+     aligned horizontally top logo
+     aligned horizontally all menu2
+     left-of logo 412px
+     left-of heading 58px
+     left-of description 2px
+     above scroll 486px
+     above heading 219px
+     above description 331px
+
+    menu2:
+     inside partly menu1  128px left
+     aligned horizontally top logo
+     aligned horizontally all menu1
+     aligned vertically left description 3px
+     left-of logo 262px
+     above scroll 486px
+     above heading 219px
+     above description 331px
+     
+  
