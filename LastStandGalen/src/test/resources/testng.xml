@@ -7,7 +7,7 @@
 
   <test name="Test">
     <classes>
-       <class name="com.miral.galenDefination.Miral_HomePage"/>
+       <class name="com.miral.galenDefination.WBW_HomePage"/>
     
       </classes>
   </test> <!-- Test -->

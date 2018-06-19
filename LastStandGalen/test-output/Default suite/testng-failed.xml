@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.miral.galenDefination.Miral_HomePage">
+      <class name="com.miral.galenDefination.WBW_HomePage">
         <methods>
           <include name="initDriver"/>
-          <include name="Miral_HomePage_UI_Validation"/>
           <include name="initReport"/>
+          <include name="WBWHomePageUIOnDesktop"/>
           <include name="quitDriver"/>
         </methods>
-      </class> <!-- com.miral.galenDefination.Miral_HomePage -->
+      </class> <!-- com.miral.galenDefination.WBW_HomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

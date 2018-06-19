@@ -22,13 +22,13 @@ public class Search_Page extends Util {
 	  load("https://yasisland.ae/", 1366,1024);
 	  WebElement searchicon=driver.findElement(By.xpath("//li[contains(@class,'uk-visible-large')]/a"));
 	  searchicon.click();
-	 // new GalenPageDump("Search Desktop page").dumpPage(driver, System.getProperty("user.dir")+ "/src/test/resources/spec/YasHomepage.spec", System.getProperty("user.dir")+ "/src/test/resources/PageDump"); 
+	// new GalenPageDump("Search Desktop page").dumpPage(driver, System.getProperty("user.dir")+ "/src/test/resources/spec/YasHomepage.spec", System.getProperty("user.dir")+ "/src/test/resources/PageDump"); 
       checkLayout(System.getProperty("user.dir")+ "/src/test/resources/spec/YasSearch.spec",asList("Desktop")); 
       
   }
   
   
-  @Test
+  /*@Test
   public void YasSearchpageUIinTablet() throws IOException {
 	  WebDriver driver=getDriver();
 	  load("https://yasisland.ae/", 1366,768);
@@ -49,7 +49,7 @@ public class Search_Page extends Util {
 	  searchicon.click();
 	  //new GalenPageDump("Search Mobile page").dumpPage(driver, System.getProperty("user.dir")+ "/src/test/resources/spec/YasHomepage.spec", System.getProperty("user.dir")+ "/src/test/resources/PageDump"); 
       checkLayout(System.getProperty("user.dir")+ "/src/test/resources/spec/YasSearch.spec",asList("mobile"));
-  }
+  }*/
 	  
   
 }

@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [MiralCreative]">
-  <listeners>
-    <listener class-name="com.miral.core.Reporter"/>
-  </listeners>
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.miral.galenDefination.Miral_HomePage">
+      <class name="com.miral.galenDefination.WBW_HomePage">
         <methods>
           <include name="initDriver"/>
-          <include name="Miral_HomePage_EditorialGrid_UI_Validation"/>
           <include name="initReport"/>
+          <include name="WBWHomePageUIOnDesktop"/>
           <include name="quitDriver"/>
-          <include name="Miral_HomePage_Footer_UI_Validation"/>
-          <include name="Miral_HomePage_HeroPanel_UI_Validation"/>
         </methods>
-      </class> <!-- com.miral.galenDefination.Miral_HomePage -->
+      </class> <!-- com.miral.galenDefination.WBW_HomePage -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [MiralCreative] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

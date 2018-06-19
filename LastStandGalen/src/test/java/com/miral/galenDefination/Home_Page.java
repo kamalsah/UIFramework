@@ -23,7 +23,7 @@ public class Home_Page extends Util{
 			/*WebDriver driver=getDriver();
 		  //load(CONFIG.getProperty("siteURL"));
 		  load("https://yasisland.ae/", 1366,768);*/
-		  WebDriver driver=getDriver();
+		WebDriver driver=getDriver();
 		load("http://fe-qa-ux-scxp-8a49-cd.azurewebsites.net/", 1366,768);
 		WebElement header=driver.findElement(By.xpath(".//div[@class='c-header component']"));
 		checkLayout(System.getProperty("user.dir")+ "/src/test/resources/spec/MiralHomePage.spec",asList("Desktop"));

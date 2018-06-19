@@ -21,6 +21,8 @@ public class ContactUs_Page extends Util {
 		  
 		  WebDriver driver=getDriver();
 		  load("https://yasisland.ae/", 1366,768);
+		  WebElement cookieclose=driver.findElement(By.cssSelector(".x_close"));
+		  cookieclose.click();
 		  WebElement linkContactUs=driver.findElement(By.xpath(".//*[@id='menu-footer-navigation-1']/li/a[@title='Contact Us']"));
 		  JavascriptExecutor jse = (JavascriptExecutor)driver;
 		  jse.executeScript("window.scrollTo(0, document.body.scrollHeight)");
@@ -29,7 +31,7 @@ public class ContactUs_Page extends Util {
 	  }
 	  
 	  
-  @Test
+  /*@Test
 	  public void YasContactUsUIinTablet() throws IOException {
 		  WebDriver driver=getDriver();
 		  load("https://yasisland.ae/", 1366,768);
@@ -51,6 +53,6 @@ public class ContactUs_Page extends Util {
 		  jse.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		  linkContactUs.click();
 	      checkLayout(System.getProperty("user.dir")+ "/src/test/resources/spec/ContactUs.spec",asList("mobile"));
-	  }
+	  }*/
 		
 }
